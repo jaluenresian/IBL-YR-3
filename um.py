@@ -7,9 +7,9 @@ def main():
 
 
 def count(s):
-    patt = r'\bum\b'
-    match = re.findall(patt, s, flags=re.IGNORECASE)
-    return len(match)
+    patternword = r'\bum\b'
+    matching = re.findall(patternword, s, flags=re.IGNORECASE)
+    return len(matching)
 
 
 if __name__ == "__main__":
